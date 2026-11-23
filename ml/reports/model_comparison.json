@@ -1,0 +1,54 @@
+{
+ "evaluated_at": "2026-11-23T16:11:37.050672+00:00",
+ "dataset": "DeepFakeFace seed 7 (200 real + 200 fake)",
+ "results": [
+  {
+   "repo": "prithivMLmods/Deep-Fake-Detector-v2-Model",
+   "revision": "3a99ae26f52c7ac7c3a53103b6cf3a8b617f7093",
+   "n_full": 400,
+   "roc_auc_full_image": 0.50525,
+   "n_face_crop": 283,
+   "roc_auc_face_crop": 0.4887454981992798,
+   "mean_score_real_full": 0.7301592164114118,
+   "mean_score_fake_full": 0.7265664056316018,
+   "seconds": 130.5,
+   "license": "apache-2.0"
+  },
+  {
+   "repo": "dima806/deepfake_vs_real_image_detection",
+   "revision": null,
+   "n_full": 400,
+   "roc_auc_full_image": 0.48910000000000003,
+   "n_face_crop": 283,
+   "roc_auc_face_crop": 0.5801820728291316,
+   "mean_score_real_full": 0.046587727140140485,
+   "mean_score_fake_full": 0.0549120613989362,
+   "seconds": 121.9,
+   "license": "apache-2.0"
+  },
+  {
+   "repo": "buildborderless/CommunityForensics-DeepfakeDet-ViT",
+   "revision": null,
+   "n_full": 400,
+   "roc_auc_full_image": 0.86185,
+   "n_face_crop": 283,
+   "roc_auc_face_crop": 0.824079631852741,
+   "mean_score_real_full": 0.0011163529154307383,
+   "mean_score_fake_full": 0.406875778221675,
+   "seconds": 112.6,
+   "license": "mit"
+  },
+  {
+   "repo": "prithivMLmods/AI-vs-Deepfake-vs-Real-Siglip2",
+   "revision": null,
+   "n_full": 400,
+   "roc_auc_full_image": 0.42079999999999995,
+   "n_face_crop": 283,
+   "roc_auc_face_crop": 0.31442577030812324,
+   "mean_score_real_full": 0.952542870751063,
+   "mean_score_fake_full": 0.9272105755784236,
+   "seconds": 123.7,
+   "license": "apache-2.0"
+  }
+ ]
+}

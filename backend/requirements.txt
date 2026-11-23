@@ -1,0 +1,23 @@
+# Python 3.12 (tested). Python 3.15 is NOT supported yet: some wheels (pyyaml for transformers) do not build.
+# PyTorch CPU wheels:  pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+fastapi==0.162.2
+uvicorn[standard]==0.54.0
+httpx==0.28.1
+python-multipart==0.0.33
+pydantic==2.14.3
+scikit-learn==1.9.1
+numpy==2.5.4
+pandas==3.1.1
+joblib==1.6.0
+pyarrow==26.0.1
+tldextract==5.4.0
+idna==3.20
+certifi==2026.10.23
+pillow==13.0.0
+# 4.x on purpose: the 5.x wheels no longer bundle the Haar cascade files used for face detection
+opencv-python-headless==4.14.0.94
+torch==2.15.0
+transformers==5.22.2
+safetensors==0.8.0
+huggingface_hub==2.4.0
+anthropic==2.6.0

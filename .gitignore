@@ -1,0 +1,42 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Секреты (ключи API, токены) — никогда не публиковать
+.env
+backend/.env
+mobile/.env
+*.key
+*.token
+
+# Тяжёлые артефакты: модели, веса, датасеты (восстанавливаются скриптами из ml/)
+backend/models/*.joblib
+ml/deepfake/weights/
+ml/deepfake/candidates/
+ml/data/
+*.safetensors
+*.bin
+*.pt
+
+# Фото и видео из тестовых наборов и чужие датасеты (лицензии)
+test_samples/
+test_samples_for_telegram.zip
+course_extract/
+backend/tests/fixtures/*.jpg
+
+# Mobile: сборки и зависимости
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/dist-web/
+mobile/ios/
+mobile/android/
+
+# Логи и служебные файлы
+*.log
+*_log.txt
+*_server_log.txt
+mobile_npm_install.txt
+web_export_log.txt
